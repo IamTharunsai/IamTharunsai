@@ -1,0 +1,30 @@
+name: fox run (custom contribution animation)
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate fox-run.svg from live contribution data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: python3 fox_run.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p .
+          cp dist/fox-run.svg fox-run.svg
+          git add fox-run.svg
+          git diff --staged --quiet || git commit -m "chore: regenerate fox-run.svg"
+          git push

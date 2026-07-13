@@ -1,0 +1,69 @@
+<svg width="1000" height="290" viewBox="0 0 1000 290" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0921"/>
+      <stop offset="45%" stop-color="#211a4e"/>
+      <stop offset="100%" stop-color="#1a1636"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="82%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#5b8def" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#5b8def" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="8%" cy="90%" r="45%">
+      <stop offset="0%" stop-color="#f5b700" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#f5b700" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#c9c9e8" opacity="0.14"/>
+    </pattern>
+    <linearGradient id="sweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5b700" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f5b700" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#5b8def" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="290" fill="url(#bg)"/>
+  <rect width="1000" height="290" fill="url(#dots)"/>
+  <rect width="1000" height="290" fill="url(#glow)"/>
+  <rect width="1000" height="290" fill="url(#glow2)"/>
+
+  <!-- viewfinder corners -->
+  <path d="M28,20 L28,50 M28,20 L58,20" stroke="#f5b700" stroke-width="2" fill="none" opacity="0.9"/>
+  <path d="M972,270 L972,240 M972,270 L942,270" stroke="#5b8def" stroke-width="2" fill="none" opacity="0.9"/>
+
+  <!-- node / systems motif, right side -->
+  <g stroke="#5b8def" stroke-width="1.4" opacity="0.55">
+    <line x1="760" y1="70" x2="830" y2="45"/>
+    <line x1="830" y1="45" x2="905" y2="80"/>
+    <line x1="830" y1="45" x2="860" y2="120"/>
+    <line x1="905" y1="80" x2="945" y2="55"/>
+  </g>
+  <circle cx="760" cy="70" r="4" fill="#f5b700"/>
+  <circle cx="830" cy="45" r="5" fill="#ffffff"/>
+  <circle cx="905" cy="80" r="4" fill="#5b8def"/>
+  <circle cx="860" cy="120" r="3.5" fill="#5b8def"/>
+  <circle cx="945" cy="55" r="3.5" fill="#f5b700"/>
+
+  <!-- kicker -->
+  <text x="60" y="86" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" letter-spacing="6" fill="#f5b700" font-weight="700">SYSTEMS OVER SPREADSHEETS</text>
+
+  <!-- name -->
+  <text x="58" y="150" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="1" fill="#ffffff">THARUN SAI NANDIGAM</text>
+
+  <!-- animated sweep underline -->
+  <rect x="60" y="168" width="620" height="3" fill="url(#sweep)">
+    <animate attributeName="width" values="0;620;620;0" keyTimes="0;0.4;0.85;1" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- subtitle -->
+  <text x="60" y="206" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" letter-spacing="1.5" fill="#c9c9e8">PROGRAM MANAGER  ×  FOUNDER, KYTCHENPULSE  ×  AI SYSTEMS BUILDER</text>
+
+  <!-- footer strip -->
+  <text x="60" y="252" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1.5" fill="#7f7bb0">F-1 OPT · MS COMPUTER SCIENCE, WRIGHT STATE · CERTIFIED SCRUMMASTER®</text>
+
+  <circle cx="944" cy="246" r="4" fill="#2ecc71">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="958" y="251" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#c9c9e8">building</text>
+</svg>

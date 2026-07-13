@@ -1,0 +1,21 @@
+<svg width="1000" height="130" viewBox="0 0 1000 130" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1636"/>
+      <stop offset="55%" stop-color="#211a4e"/>
+      <stop offset="100%" stop-color="#0b0921"/>
+    </linearGradient>
+    <linearGradient id="sweep2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5b8def" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f5b700" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5b8def" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="130" fill="url(#bg2)"/>
+  <path d="M28,20 L28,45 M28,20 L52,20" stroke="#f5b700" stroke-width="2" fill="none" opacity="0.85"/>
+  <path d="M972,110 L972,85 M972,110 L948,110" stroke="#5b8def" stroke-width="2" fill="none" opacity="0.85"/>
+  <rect x="0" y="63" width="1000" height="2" fill="url(#sweep2)">
+    <animate attributeName="x" values="-1000;0;1000" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="500" y="72" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" letter-spacing="4" fill="#c9c9e8">REFUSAL BEATS MOTIVATION</text>
+</svg>

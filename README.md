@@ -241,39 +241,16 @@ Quality over quantity — a well-targeted application to 5 companies beats a gen
 
 ## Tech Stack
 
-**Delivery & Program Management**
+<div align="center">
 
-<img src="https://img.shields.io/badge/Jira-0B0921?style=for-the-badge&logo=jira&logoColor=0052CC" />
-<img src="https://img.shields.io/badge/Confluence-0B0921?style=for-the-badge&logo=confluence&logoColor=2684FF" />
-<img src="https://img.shields.io/badge/MS_Project-0B0921?style=for-the-badge&logo=microsoftoffice&logoColor=E8A33D" />
-<img src="https://img.shields.io/badge/ServiceNow-0B0921?style=for-the-badge&logo=servicenow&logoColor=62D84E" />
-<img src="https://img.shields.io/badge/Microsoft_Teams-0B0921?style=for-the-badge&logo=microsoftteams&logoColor=6264A7" />
-<img src="https://img.shields.io/badge/SharePoint-0B0921?style=for-the-badge&logo=microsoftsharepoint&logoColor=5B8DEF" />
+| Layer | Stack |
+|:--|:--|
+| **Delivery & Program Mgmt** | <img src="https://img.shields.io/badge/Jira-0B0921?style=for-the-badge&logo=jira&logoColor=0052CC" /> <img src="https://img.shields.io/badge/Confluence-0B0921?style=for-the-badge&logo=confluence&logoColor=2684FF" /> <img src="https://img.shields.io/badge/MS_Project-0B0921?style=for-the-badge&logo=microsoftoffice&logoColor=E8A33D" /> <img src="https://img.shields.io/badge/ServiceNow-0B0921?style=for-the-badge&logo=servicenow&logoColor=62D84E" /> <img src="https://img.shields.io/badge/Microsoft_Teams-0B0921?style=for-the-badge&logo=microsoftteams&logoColor=6264A7" /> <img src="https://img.shields.io/badge/SharePoint-0B0921?style=for-the-badge&logo=microsoftsharepoint&logoColor=5B8DEF" /> |
+| **Cloud & DevOps** | <img src="https://img.shields.io/badge/AWS-0B0921?style=for-the-badge&logo=amazonaws&logoColor=F5B700" /> <img src="https://img.shields.io/badge/Azure-0B0921?style=for-the-badge&logo=microsoftazure&logoColor=5B8DEF" /> <img src="https://img.shields.io/badge/Git-0B0921?style=for-the-badge&logo=git&logoColor=F05032" /> <img src="https://img.shields.io/badge/Jenkins-0B0921?style=for-the-badge&logo=jenkins&logoColor=D24939" /> <img src="https://img.shields.io/badge/GitHub_Actions-0B0921?style=for-the-badge&logo=githubactions&logoColor=5B8DEF" /> |
+| **Engineering & AI** | <img src="https://img.shields.io/badge/Python-0B0921?style=for-the-badge&logo=python&logoColor=F5B700" /> <img src="https://img.shields.io/badge/JavaScript-0B0921?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /> <img src="https://img.shields.io/badge/Java-0B0921?style=for-the-badge&logo=openjdk&logoColor=5B8DEF" /> <img src="https://img.shields.io/badge/PostgreSQL-0B0921?style=for-the-badge&logo=postgresql&logoColor=5B8DEF" /> <img src="https://img.shields.io/badge/HTML5-0B0921?style=for-the-badge&logo=html5&logoColor=E34F26" /> <img src="https://img.shields.io/badge/CSS3-0B0921?style=for-the-badge&logo=css3&logoColor=5B8DEF" /> <img src="https://img.shields.io/badge/RAG-0B0921?style=for-the-badge&logoColor=F5B700" /> <img src="https://img.shields.io/badge/MCP-0B0921?style=for-the-badge&logoColor=F5B700" /> <img src="https://img.shields.io/badge/Agentic_AI-0B0921?style=for-the-badge&logoColor=F5B700" /> |
+| **Data & Reporting** | <img src="https://img.shields.io/badge/Power_BI-0B0921?style=for-the-badge&logo=powerbi&logoColor=F2C811" /> <img src="https://img.shields.io/badge/Excel-0B0921?style=for-the-badge&logo=microsoftexcel&logoColor=217346" /> |
 
-**Cloud & DevOps**
-
-<img src="https://img.shields.io/badge/AWS-0B0921?style=for-the-badge&logo=amazonaws&logoColor=F5B700" />
-<img src="https://img.shields.io/badge/Azure-0B0921?style=for-the-badge&logo=microsoftazure&logoColor=5B8DEF" />
-<img src="https://img.shields.io/badge/Git-0B0921?style=for-the-badge&logo=git&logoColor=F05032" />
-<img src="https://img.shields.io/badge/Jenkins-0B0921?style=for-the-badge&logo=jenkins&logoColor=D24939" />
-<img src="https://img.shields.io/badge/GitHub_Actions-0B0921?style=for-the-badge&logo=githubactions&logoColor=5B8DEF" />
-
-**Engineering & AI**
-
-<img src="https://img.shields.io/badge/Python-0B0921?style=for-the-badge&logo=python&logoColor=F5B700" />
-<img src="https://img.shields.io/badge/JavaScript-0B0921?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-<img src="https://img.shields.io/badge/Java-0B0921?style=for-the-badge&logo=openjdk&logoColor=5B8DEF" />
-<img src="https://img.shields.io/badge/PostgreSQL-0B0921?style=for-the-badge&logo=postgresql&logoColor=5B8DEF" />
-<img src="https://img.shields.io/badge/HTML5-0B0921?style=for-the-badge&logo=html5&logoColor=E34F26" />
-<img src="https://img.shields.io/badge/CSS3-0B0921?style=for-the-badge&logo=css3&logoColor=5B8DEF" />
-<img src="https://img.shields.io/badge/RAG-0B0921?style=for-the-badge&logoColor=F5B700" />
-<img src="https://img.shields.io/badge/MCP-0B0921?style=for-the-badge&logoColor=F5B700" />
-<img src="https://img.shields.io/badge/Agentic_AI-0B0921?style=for-the-badge&logoColor=F5B700" />
-
-**Data & Reporting**
-
-<img src="https://img.shields.io/badge/Power_BI-0B0921?style=for-the-badge&logo=powerbi&logoColor=F2C811" />
-<img src="https://img.shields.io/badge/Excel-0B0921?style=for-the-badge&logo=microsoftexcel&logoColor=217346" />
+</div>
 
 <br/>
 

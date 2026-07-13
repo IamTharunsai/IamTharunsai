@@ -44,12 +44,11 @@ role: Project Coordinator @ Atlassian  ·  Founder @ KytchenPulse
 background: 4+ years — cloud SaaS delivery, enterprise ops, AI product development
 education: MS Computer Science (AI focus) — Wright State University, GPA 3.5
 credential: Certified ScrumMaster® (CSM), Scrum Alliance
-visa: F-1 OPT — authorized to work in the US, no sponsorship required, through Jan 2029
 philosophy: "Readiness is a muscle, not a milestone. Refusal beats motivation."
 ```
 
 > 365 days ago — a Google Slide, a name I made up, and 5 failed startups behind me.
-> No product. No team. No funding. F-1 visa, borrowed desk, one problem I couldn't stop
+> No product. No team. No funding. Borrowed desk, one problem I couldn't stop
 > thinking about. Twelve months later: a live MVP, a $6,000 grant won after 6 rejections,
 > and a company registered in Ohio.
 
@@ -63,7 +62,7 @@ I've been the founder, so I know exactly what it costs when coordination breaks.
 I've shipped a real product — POS, QR ordering, inventory, real-time financials, live.
 I've built Agile from scratch, not inherited someone else's process.
 I think in systems, not spreadsheets — I build AI pipelines to do the boring parts of judgment at scale.
-F-1 visa. No co-founder. No safety net. Five failed startups before this one worked. I don't stop.
+No co-founder. No safety net. Five failed startups before this one worked. I don't stop.
 
 <br/>
 

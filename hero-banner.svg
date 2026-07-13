@@ -60,7 +60,7 @@
   <text x="60" y="206" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" letter-spacing="1.5" fill="#c9c9e8">PROGRAM MANAGER  ×  FOUNDER, KYTCHENPULSE  ×  AI SYSTEMS BUILDER</text>
 
   <!-- footer strip -->
-  <text x="60" y="252" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1.5" fill="#7f7bb0">F-1 OPT · MS COMPUTER SCIENCE, WRIGHT STATE · CERTIFIED SCRUMMASTER®</text>
+  <text x="60" y="252" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1.5" fill="#7f7bb0">MS COMPUTER SCIENCE, WRIGHT STATE · CERTIFIED SCRUMMASTER®</text>
 
   <circle cx="944" cy="246" r="4" fill="#2ecc71">
     <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>

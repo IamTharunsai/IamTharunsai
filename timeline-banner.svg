@@ -1,0 +1,99 @@
+<svg width="1000" height="240" viewBox="0 0 1000 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0921"/>
+      <stop offset="100%" stop-color="#1a1636"/>
+    </linearGradient>
+    <pattern id="tdots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#c9c9e8" opacity="0.10"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="240" fill="url(#tbg)"/>
+  <rect width="1000" height="240" fill="url(#tdots)"/>
+
+  <text x="500" y="34" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" letter-spacing="4" fill="#f5b700" font-weight="700">SEVEN YEARS, NO SHORTCUTS</text>
+
+  <!-- baseline -->
+  <line x1="50" y1="130" x2="950" y2="130" stroke="#302b63" stroke-width="2"/>
+  <line x1="50" y1="130" x2="950" y2="130" stroke="#5b8def" stroke-width="2" stroke-dasharray="900" stroke-dashoffset="900">
+    <animate attributeName="stroke-dashoffset" from="900" to="0" dur="3.5s" fill="freeze"/>
+  </line>
+
+  <!-- milestone template: circle + year above/below + label -->
+  <!-- 1: 2019 INNOFAB -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.5s" fill="freeze"/>
+    <circle cx="100" cy="130" r="6" fill="#7f7bb0"/>
+    <text x="100" y="100" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#f5b700" font-weight="700">2019</text>
+    <text x="100" y="160" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#c9c9e8">INNOFAB</text>
+    <text x="100" y="176" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#7f7bb0">Panel design, AutoCAD</text>
+  </g>
+
+  <!-- 2: 2021 BHEL -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.5s" fill="freeze"/>
+    <circle cx="230" cy="130" r="6" fill="#7f7bb0"/>
+    <text x="230" y="100" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#f5b700" font-weight="700">2021</text>
+    <text x="230" y="160" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#c9c9e8">BHEL</text>
+    <text x="230" y="176" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#7f7bb0">Manufacturing analytics</text>
+  </g>
+
+  <!-- 3: 2022 Adani Power -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.5s" fill="freeze"/>
+    <circle cx="360" cy="130" r="6" fill="#7f7bb0"/>
+    <text x="360" y="100" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#f5b700" font-weight="700">2022</text>
+    <text x="360" y="160" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#c9c9e8">Adani Power</text>
+    <text x="360" y="176" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#7f7bb0">Plant ops coordination</text>
+  </g>
+
+  <!-- 4: 2023 Wright State MS -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.5s" fill="freeze"/>
+    <circle cx="490" cy="130" r="6" fill="#7f7bb0"/>
+    <text x="490" y="100" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#f5b700" font-weight="700">2023</text>
+    <text x="490" y="160" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#c9c9e8">Wright State</text>
+    <text x="490" y="176" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#7f7bb0">MS in AI begins</text>
+  </g>
+
+  <!-- 5: Apr 2025 Wright Venture win -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.5s" fill="freeze"/>
+    <circle cx="610" cy="130" r="8" fill="#f5b700"/>
+    <text x="610" y="100" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#f5b700" font-weight="700">APR 2025</text>
+    <text x="610" y="160" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="700">Wright Venture</text>
+    <text x="610" y="176" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#7f7bb0">$6K won, 6 rejections first</text>
+  </g>
+
+  <!-- 6: May 2025 KytchenPulse founded -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.2s" dur="0.5s" fill="freeze"/>
+    <circle cx="730" cy="130" r="8" fill="#f5b700"/>
+    <text x="730" y="100" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#f5b700" font-weight="700">MAY 2025</text>
+    <text x="730" y="160" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="700">KytchenPulse</text>
+    <text x="730" y="176" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#7f7bb0">Founded, MVP underway</text>
+  </g>
+
+  <!-- 7: Dec 2025 MS complete -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.5s" fill="freeze"/>
+    <circle cx="840" cy="130" r="6" fill="#7f7bb0"/>
+    <text x="840" y="100" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#f5b700" font-weight="700">DEC 2025</text>
+    <text x="840" y="160" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#c9c9e8">MS CS, GPA 3.5</text>
+  </g>
+
+  <!-- 8: 2026 Atlassian + CSM -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.5s" fill="freeze"/>
+    <circle cx="900" cy="130" r="8" fill="#2ecc71"/>
+    <text x="900" y="100" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#2ecc71" font-weight="700">NOW</text>
+    <text x="900" y="160" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="700">Atlassian</text>
+    <text x="900" y="176" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#7f7bb0">VP-level delivery, CSM</text>
+    <circle cx="900" cy="130" r="8" fill="none" stroke="#2ecc71" stroke-width="2">
+      <animate attributeName="r" values="8;16;8" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="500" y="215" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#7f7bb0">Electrical engineering → manufacturing analytics → plant ops → AI/CS → founder → enterprise delivery</text>
+</svg>

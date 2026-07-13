@@ -67,6 +67,37 @@ No co-founder. No safety net. Five failed startups before this one worked. I don
 
 <br/>
 
+<div align="center">
+
+<img src="timeline-banner.svg" width="100%" alt="Career timeline: INNOFAB 2019 to Atlassian today" />
+
+</div>
+
+<details>
+<summary><b>The founder's-journey version</b> — a Mermaid user journey of how KytchenPulse actually happened</summary>
+<br/>
+
+```mermaid
+journey
+    title From Google Slide to Live MVP
+    section Before the pivot
+      Name the venture, design the logo: 4: Tharun
+      Pitch investors, get rejected 6 times: 1: Tharun
+    section Wright Venture
+      Make the Top 5: 5: Tharun
+      Win $6,000 on stage: 8: Tharun
+    section Building
+      Register the LLC in Ohio: 6: Tharun
+      Run sprints with an outsourced team, solo: 5: Tharun
+      Coordinate 3 vendors, zero missed milestones: 6: Tharun
+    section Shipping
+      Ship POS, QR ordering, inventory: 8: Tharun
+      Ship real-time financials: 8: Tharun
+      Present as Wright Venture alumni speaker: 9: Tharun
+```
+
+</details>
+
 ## Impact, Not Activity
 
 <div align="center">

@@ -229,9 +229,14 @@ Quality over quantity — a well-targeted application to 5 companies beats a gen
 
 ## Live Metrics
 
+<sub>The two cards below are community-run services that occasionally pause under load — if a card looks blank, refresh in a few minutes, it comes back.</sub>
+
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=IamTharunsai&hide_border=true&background=0B0921&ring=5B8DEF&fire=F5B700&currStreakLabel=F5B700&sideLabels=C9C9E8&currStreakNum=ffffff&sideNums=ffffff&dates=7f7bb0" width="60%" />
+<img src="https://github-readme-stats.vercel.app/api?username=IamTharunsai&show_icons=true&hide_border=true&hide_title=false&bg_color=0b0921&title_color=F5B700&icon_color=5B8DEF&text_color=C9C9E8&border_color=302b63&count_private=true" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=IamTharunsai&hide_border=true&background=0B0921&ring=5B8DEF&fire=F5B700&currStreakLabel=F5B700&sideLabels=C9C9E8&currStreakNum=ffffff&sideNums=ffffff&dates=7f7bb0" width="49%" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IamTharunsai&layout=compact&hide_border=true&bg_color=0b0921&title_color=F5B700&text_color=C9C9E8&border_color=302b63&langs_count=10" width="49%" />
 
 </div>
 
@@ -264,6 +269,16 @@ Quality over quantity — a well-targeted application to 5 companies beats a gen
 </picture>
 
 <sub>Refreshes automatically every 12 hours — this is what "reflect ongoing work" looks like</sub>
+
+</div>
+
+<br/>
+
+### Trophy Case
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=IamTharunsai&theme=algolia&no-frame=true&no-bg=false&margin-w=8&column=4&row=2" />
 
 </div>
 

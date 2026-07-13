@@ -29,6 +29,7 @@
 
 <a href="#impact-not-activity">Impact</a> ·
 <a href="#currently-building">Building</a> ·
+<a href="#build-log">Build Log</a> ·
 <a href="#system-architecture">Architecture</a> ·
 <a href="#tech-stack">Stack</a> ·
 <a href="#live-metrics">Live Metrics</a>
@@ -115,6 +116,24 @@ not a soft metric, an hours-saved one.
 | **Founder Circle** | Community platform where founders share ideas and get feedback — auth, threaded comments, admin moderation, MongoDB-backed. | 🔒 Private |
 | **APEX TRADER** | A 10-agent council (Technician, Newshound, Sentiment, Fundamentals, Risk Manager, Trend Prophet, Volume, Whale Watcher, Macro, Devil's Advocate) votes 7/10 to clear a trade — Risk Manager holds absolute veto. | 🔒 Private |
 | **Autonomous Job Intelligence System** | Scans 45+ ATS portals, scores every role on a 5-point framework, auto-tailors CVs, learns from rejection patterns. | 🔒 Private |
+
+</div>
+
+<br/>
+
+## Build Log
+
+<div align="center">
+
+*Every repo below is real and linked — including the ones before KytchenPulse worked. No forked tools, no empty scaffolds, no padding.*
+
+| Repo | What It Was | Outcome |
+|:--|:--|:--:|
+| **[KYANTRA](https://github.com/IamTharunsai/kyantra-website-)** | The corporate site for the venture before the pivot — built the name, the logo, the site myself | Superseded by KytchenPulse |
+| **[KALO](https://github.com/IamTharunsai/KALO)** | UI exploration — took a Figma design system to working code | Design reference |
+| **[govtjobs](https://github.com/IamTharunsai/govtjobs)** | Early Next.js build, government job aggregator concept | Shelved |
+
+<sub>Left off this list on purpose: repos with zero commits, and forked copies of other people's tools (skills, CLIs) I use but didn't write. Padding this list with either would make the real work harder to trust, not easier.</sub>
 
 </div>
 

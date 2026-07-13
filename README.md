@@ -109,10 +109,12 @@ not a soft metric, an hours-saved one.
 
 | Project | What It Actually Is | Status |
 |:--|:--|:--:|
-| **KytchenPulse** | AI-powered restaurant ops SaaS — POS, QR ordering, inventory, real-time financials. Built from a Google Slide to a live MVP; Wright Venture Award winner. | 🟢 Live · Founder |
-| **SceneSwap** | AI product-placement engine (Grounding DINO + SAM2) that composites real products into creator video, frame-accurate, zero editing. | 🟢 Live |
+| **[KytchenPulse](https://www.kytchenpulse.com/)** | AI-powered restaurant ops SaaS — POS, QR ordering, inventory, real-time financials. Built from a Google Slide to a live MVP; Wright Venture Award winner. | 🟢 Live · Founder |
+| **[SceneSwap](https://sceneswap-web.vercel.app/)** | AI product-placement engine that composites real products into creator video. Real Next.js/Turborepo monorepo, 14 production deploys. | 🟢 Live |
+| **[ARIA](https://aria-nine-flax.vercel.app/)** | AI voice agent for business — full-stack platform (Next.js, Prisma, Turborepo), 50 production deploys. | 🟢 Live |
+| **Founder Circle** | Community platform where founders share ideas and get feedback — auth, threaded comments, admin moderation, MongoDB-backed. | 🔒 Private |
+| **APEX TRADER** | A 10-agent council (Technician, Newshound, Sentiment, Fundamentals, Risk Manager, Trend Prophet, Volume, Whale Watcher, Macro, Devil's Advocate) votes 7/10 to clear a trade — Risk Manager holds absolute veto. | 🔒 Private |
 | **Autonomous Job Intelligence System** | Scans 45+ ATS portals, scores every role on a 5-point framework, auto-tailors CVs, learns from rejection patterns. | 🔒 Private |
-| **25-Agent Trading Desk** | 12-stage pipeline with an adversarial "devil's advocate" agent that has to be out-argued before any BUY/SELL call clears. | 🔒 Private |
 
 </div>
 
@@ -135,20 +137,35 @@ flowchart LR
 ```
 
 <details>
-<summary><b>25-Agent Trading Desk</b> — 12-stage pipeline, private system — click to expand</summary>
+<summary><b>APEX TRADER</b> — 10-agent council, private system — click to expand</summary>
 <br/>
+
+*Real architecture, pulled straight from the repo — not marketing copy.*
 
 ```mermaid
 flowchart TD
-    T["Ticker In"] --> S1["Stages 1–4 — Is it safe to look at this stock?<br/>Macro · Earnings Risk · Institutional Flow · Company Health"]
-    S1 -- any stage fails --> STOP["STOP — capital protected, no trade"]
-    S1 -- all pass --> S2["Stages 5–8 — Where do professionals buy/sell?<br/>Multi-Timeframe · Support/Resistance · Patterns · 11 Indicators"]
-    S2 --> S3["Stages 9–10 — What is smart money doing?<br/>Volume (Wyckoff) · Fear/Greed · Options Flow"]
-    S3 --> S4["Stages 11–12 — Investment committee<br/>25 agents debate · Devil's Advocate must be out-argued"]
-    S4 --> OUT["BUY / SELL / HOLD<br/>Entry · Hard Stop · 3 Targets · Position Size (max 2%) · Confidence"]
+    IN["Ticker In"] --> COUNCIL
+
+    subgraph COUNCIL["10-Agent Council — 7/10 votes required to execute"]
+        direction LR
+        A1["Technician<br/>RSI · MACD · Bollinger"]
+        A2["Newshound<br/>Breaking news, earnings"]
+        A3["Sentiment Analyst<br/>Fear/Greed, social mood"]
+        A4["Fundamental Analyst<br/>P/E, revenue, market cap"]
+        A5["Risk Manager<br/>ABSOLUTE VETO"]
+        A6["Trend Prophet<br/>AI price prediction"]
+        A7["Volume Detective<br/>OBV, accumulation"]
+        A8["Whale Watcher<br/>Institutional flows"]
+        A9["Macro Economist<br/>Fed policy, rates"]
+        A10["Devil's Advocate<br/>argues against every trade"]
+    end
+
+    COUNCIL --> GUARD{"Guardrails"}
+    GUARD -- "daily loss 5% / weekly drawdown 10% / max drawdown 20%" --> HALT["Halt or emergency stop"]
+    GUARD -- clear --> OUT["Execute — max 1% risk/trade, 30% cash reserve always held"]
 ```
 
-A system built to say **NO** more than it says **YES** — the hard part wasn't the AI, it was encoding discipline.
+Risk Manager can veto any trade alone. Devil's Advocate can soft-block. Built to say **NO** more than it says **YES**.
 
 </details>
 
@@ -214,10 +231,7 @@ Quality over quantity — a well-targeted application to 5 companies beats a gen
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=IamTharunsai&show_icons=true&hide_border=true&hide_title=false&bg_color=0b0921&title_color=F5B700&icon_color=5B8DEF&text_color=C9C9E8&border_color=302b63&count_private=true" width="49%" />
-<img src="https://streak-stats.demolab.com/?user=IamTharunsai&hide_border=true&background=0B0921&ring=5B8DEF&fire=F5B700&currStreakLabel=F5B700&sideLabels=C9C9E8&currStreakNum=ffffff&sideNums=ffffff&dates=7f7bb0" width="49%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IamTharunsai&layout=compact&hide_border=true&bg_color=0b0921&title_color=F5B700&text_color=C9C9E8&border_color=302b63&langs_count=10" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=IamTharunsai&hide_border=true&background=0B0921&ring=5B8DEF&fire=F5B700&currStreakLabel=F5B700&sideLabels=C9C9E8&currStreakNum=ffffff&sideNums=ffffff&dates=7f7bb0" width="60%" />
 
 </div>
 
@@ -250,16 +264,6 @@ Quality over quantity — a well-targeted application to 5 companies beats a gen
 </picture>
 
 <sub>Refreshes automatically every 12 hours — this is what "reflect ongoing work" looks like</sub>
-
-</div>
-
-<br/>
-
-### Trophy Case
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=IamTharunsai&theme=algolia&no-frame=true&no-bg=false&margin-w=8&column=4&row=2" />
 
 </div>
 

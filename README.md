@@ -324,6 +324,18 @@ Quality over quantity — a well-targeted application to 5 companies beats a gen
 
 <br/>
 
+### The Fox Runs the Calendar
+
+<div align="center">
+
+<img src="fox-run.svg" width="95%" alt="A hand-built fox animation running the real contribution calendar, recolored to the profile palette" />
+
+</div>
+
+<sub>Not a fork of anyone else's snake or maze script — a script I wrote (`fox_run.py`) that pulls this year's real contribution data straight from GitHub's GraphQL API and renders it as an original animated SVG, recolored navy-to-amber instead of GitHub green. Regenerates daily. See it in <a href="fox_run.py">fox_run.py</a>.</sub>
+
+<br/>
+
 ### Trophy Case
 
 <div align="center">
